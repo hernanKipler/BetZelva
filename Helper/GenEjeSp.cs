@@ -61,7 +61,7 @@ namespace Helper
             {
                 lstParams.Connection = con;
 
-                lstParams.CommandText = "GEN_LstParamsxSP_SP";
+                lstParams.CommandText = "BET_LstParamsxSP_SP";
                 lstParams.CommandType = CommandType.StoredProcedure;
                 lstParams.Parameters.Add(new SqlParameter("@x_cNombreSP", nombreSp));
                 SqlDataReader parametersReader = lstParams.ExecuteReader();

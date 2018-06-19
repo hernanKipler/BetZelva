@@ -17,7 +17,11 @@ namespace BetZelva
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new frmRondasApuesta());
+=======
+            Application.Run(new frmMenuPrincipal());
+>>>>>>> master
         }
     }
 }
