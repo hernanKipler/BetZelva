@@ -282,18 +282,14 @@ namespace Helper
         }
         private string GetConnectionString()
         {
-
             SqlConnectionStringBuilder cnBuilder = new SqlConnectionStringBuilder();
-            cnBuilder.DataSource = "DESKTOP-4S6RUMB";
-            cnBuilder.InitialCatalog = "BetZelva";
+            cnBuilder.DataSource = "jhak.database.windows.net";
+            cnBuilder.InitialCatalog = "BdBetZelva";
             cnBuilder.IntegratedSecurity = false;
-            cnBuilder.UserID = "hcamasca";
-            cnBuilder.Password = "hcamasca";
+            cnBuilder.UserID = "jhak";
+            cnBuilder.Password = "jh@k1234";
 
             return cnBuilder.ToString();
-
-            //var stringConf = ConfigurationManager.ConnectionStrings["cadenaFacturador"].ConnectionString;
-            //return stringConf;
         }
         private DataTable estructuraVacia()
         {
