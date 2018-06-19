@@ -376,6 +376,7 @@
             this.chcActivo.TabIndex = 23;
             this.chcActivo.Text = "Activos";
             this.chcActivo.UseVisualStyleBackColor = true;
+            this.chcActivo.CheckedChanged += new System.EventHandler(this.chcActivo_CheckedChanged);
             // 
             // frmRondasApuesta
             // 

@@ -191,5 +191,10 @@ namespace BetZelva
             chcActivo.Enabled  = false;
             chcActivo.Checked  = false;
         }
+
+        private void chcActivo_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

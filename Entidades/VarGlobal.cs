@@ -10,5 +10,6 @@ namespace Entidades
     {
         public static Usuario SysUser {get; set;}
         public static DateTime dFechaSys { get; set; }
+        
     }
 }
